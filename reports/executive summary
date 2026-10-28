@@ -1,0 +1,63 @@
+# Executive Summary
+## Customer, Product, and Profitability Performance Analysis in Supply Chain Operations
+
+### 1. Project Overview
+
+This project analyzes supply chain operational and financial data to understand revenue generation, profitability, customer value, product and category performance, and discount impact. Using a dataset containing 180,519 records and 42 columns, the analysis identifies business performance patterns and opportunities to improve profitability and support data-driven decision-making.
+
+The project uses Python, Pandas, Jupyter Notebook, Streamlit, and Microsoft Power BI to perform data cleaning, exploratory analysis, KPI calculation, and interactive dashboard development.
+
+### 2. Key Financial Findings
+
+The analysis produced the following financial results:
+
+| Key Performance Indicator | Result |
+|---|---:|
+| Total Records | 180,519 |
+| Gross Sales | $36,784,734.31 |
+| Net Sales after Discounts | $33,054,402.04 |
+| Total Discounts | $3,730,378.40 |
+| Total Profit | $3,966,902.97 |
+| Profit Margin on Net Sales | 12.00% |
+| Negative-Profit Records | 33,784 |
+
+The overall profit margin on net sales was approximately 12%. Although the business generated substantial sales and positive aggregate profit, 33,784 records reported negative profit. This highlights the importance of examining profitability at the transaction, product, and customer levels rather than relying only on total sales.
+
+### 3. Major Analytical Findings
+
+**Customer Performance:** Customer-level analysis examines sales and profit contribution to identify valuable customers and support customer segmentation and retention strategies.
+
+**Product and Category Performance:** Product and category analysis compares gross sales, net sales, total profit, discounts, units sold, and profit margins. This helps distinguish strong performers from products that generate high sales but relatively low margins.
+
+**Discount Impact:** Discount analysis groups transactions by discount levels and compares their associated profit and margin performance. The results support a more careful evaluation of discounting practices and their relationship with profitability.
+
+**Regional and Shipping Performance:** Regional and shipping analysis examines business performance across available geographic and shipping dimensions to identify differences in sales, profit, and operational patterns.
+
+### 4. Tools and Technologies
+
+- **Python and Pandas:** Data preparation, transformation, and analysis.
+- **Jupyter Notebook:** Reproducible analytical workflows.
+- **Streamlit:** Interactive web-based analytics dashboard.
+- **Microsoft Power BI:** Business intelligence reports and KPI visualization.
+- **GitHub:** Project documentation, version control, and portfolio presentation.
+
+### 5. Business Recommendations
+
+1. **Improve loss-making transaction monitoring:** Investigate negative-profit records to identify possible cost, pricing, discount, or operational issues.
+2. **Prioritize profitable products:** Evaluate products using both sales volume and profit margin rather than sales alone.
+3. **Review discount policies:** Compare discount bands against their associated profit performance and avoid assuming that higher discounts automatically increase profitability.
+4. **Strengthen customer retention:** Use customer sales and profit contribution to guide targeted retention and relationship-management strategies.
+5. **Monitor regional and shipping performance:** Compare performance across regions and shipping methods to identify areas requiring further operational investigation.
+6. **Use dashboards for regular monitoring:** Track revenue, profit, margin, customer contribution, and discount metrics to support informed business decisions.
+
+### 6. Limitations
+
+The analysis describes patterns present in the available dataset and does not establish that discounts or shipping choices directly cause changes in profitability. The Customer Value Index used in the project is a project-defined measure based on sales and profit contribution, not an official company metric. The dataset also does not provide a usable date field for reliable time-trend analysis.
+
+The full dataset should be used for complete analysis. Any smaller sample shared publicly is intended for demonstration and may produce different results from the full dataset.
+
+### 7. Conclusion
+
+This project demonstrates how supply chain data can be transformed into actionable business insights through data analysis and interactive visualization. By integrating customer, product, profitability, discount, regional, and shipping analyses, the project provides a structured foundation for identifying performance gaps and supporting better commercial decisions.
+
+The combination of Python, Streamlit, and Power BI makes the findings accessible through both analytical workflows and interactive dashboards, demonstrating practical data analytics skills relevant to business and supply chain operations.
