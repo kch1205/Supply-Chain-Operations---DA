@@ -30,7 +30,7 @@ page_titles = {
 st.title(page_titles[page])
 st.caption("Customer, Product, and Profitability Performance Analysis")
 
-DATA_PATH = Path(__file__).parent / "data" / "processed" / "apl_logistics_cleaned.csv"
+DATA_PATH = Path(__file__).parent / "data" / "processed" / "apl_logistics_sample.csv"
 
 @st.cache_data
 def load_data(path):
@@ -41,7 +41,7 @@ try:
 except FileNotFoundError:
     st.error(f"Dataset not found at: {DATA_PATH}")
     st.info(
-        "Please place apl_logistics_cleaned.csv "
+        "Please place apl_logistics_sample.csv "
         "inside data/processed."
     )
     st.stop()
